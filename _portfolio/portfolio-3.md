@@ -1,16 +1,24 @@
 ---
-title: "CPRE 281 Project"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "True Colors App"
+excerpt: "Semester-log team project for COM S 3090: Software Development Practices.<br/><img src='/images/true-colors-rectangle.png' style='width:375px;height:300px;'>"
 collection: portfolio
 ---
 
 ## Description
-This was the final project for CPRE 2810: Digital Logic. The goal of this project was to mimic the behavior of a CD player. This is a project that needed to use a finite state machine and a register file as well as the inputs and displays on the boards in the lab. In order to achieve this, I used the knowledge that I have acquired from the CPR E 281 class throughout the semester and the tools in the lab. The project is implemented through the use of BDFs developed in Quartus Prime. It utilizes five seven-segment displays to show the track number and time elapsed of a particular song. Various buttons and switches on the board are used to set and control the CD. The deliverable is an unfinished CD player that can take some input but does not display the expected result. It is a decent start to a project that can be further developed and improved.
+In today's fast-paced fashion industry, many individuals need help identifying clothing colors that complement their unique skin tones, often leading to unsatisfactory wardrobe choices and a lack of confidence in their style. Moreover, in-person color consultations' high cost and inconvenience present significant barriers for those seeking practical advice. Our app addresses these issues by providing a convenient, cost-effective solution that leverages technology to analyze users' skin undertones through image processing. The app offers personalized color recommendations to enhance individual style choices. Additionally, the app fosters a community of fashion-forward users by enabling the sharing of user-curated outfits, therefore offering a free alternative to traditional color consulting services.
 
 ## My Role
-Lead Developer
+Front-End Developer
+
+My role in the project involved developing the application's front-end, which is what the user interacts with. I created screens, designed screen layouts, and implemented buttons and other UI functionality. Another part of front-end development I did was format HTTP requests with user information to send to the back-end to be stored. An example of this is the process I created for posting a photo on the app. The user selects the photo that they want to post and adds a caption using the app’s UI. Then when they hit a “post” button, the program sends a POST request to the back-end with data from the user, such as their username, photo, and caption. Then when the user goes to their profile, they can see the posts they made because a GET request is sent to the back-end to get all the posts. 
+
+<img src="/images/app-screen.png" width="300">
 
 ## Skills or knowledge gained
-Quartus Prime
+* Smoothly collaborated and shared code using GitLab
+* Used Android Studio as an IDE for front-end development
+* Tested HTTP requests with Postman
 
 ## Resources used
+* GeeksforGeeks for [learning how to select images](https://www.geeksforgeeks.org/how-to-select-an-image-from-gallery-in-android/)
+* StackOverflow for [learning how to use a server response as a JSONObject](https://stackoverflow.com/questions/65289261/value-of-type-java-lang-integer-cannot-be-converted-to-jsonobject)
